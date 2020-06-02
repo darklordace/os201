@@ -1,0 +1,28 @@
+Script started on 2020-06-02 19:45:58+0700
+]0;alghi@DESKTOP-LQQ15RC: ~/Alghi/os201/UAS[01;32malghi@DESKTOP-LQQ15RC[00m:[01;34m~/Alghi/os201/UAS[00m$ PS1="$ "
+$ echo $GitHubUser
+darklordace
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ eval $PSTAMP
+200602-194630-9d54-UAS/> 
+$ PS1="\$(eval \$PSTAMP)"
+200602-194635-1cef-UAS/> date
+Tue Jun  2 19:46:43 DST 2020
+200602-194643-91b1-UAS/> gpg2 --list-keys
+/home/alghi/.gnupg/pubring.kbx
+------------------------------
+pub   rsa2048 2020-06-02 [SC]
+      50ACEADB7B4AF9C77F9257D80784F91A9259DAC6
+uid           [ultimate] Firdaus Al-Ghifari <firdaus.alghifari@gmail.com>
+sub   rsa2048 2020-06-02 [E]
+
+pub   rsa4096 2020-02-13 [SC] [expires: 2021-02-12]
+      B4507B533F7F22840BD8E93ED0F5DBDD67DF6DDE
+uid           [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   rsa4096 2020-02-13 [E] [expires: 2021-02-12]
+
+200602-194701-4b8b-UAS/> exit
+exit
+
+Script done on 2020-06-02 19:47:34+0700
