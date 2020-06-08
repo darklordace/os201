@@ -1,0 +1,34 @@
+Script started on 2020-06-08 22:41:33+0700
+]0;alghi@DESKTOP-LQQ15RC: ~/Alghi/os201/UAS[01;32malghi@DESKTOP-LQQ15RC[00m:[01;34m~/Alghi/os201/UAS[00m$ PS1="$ "
+$ echo $GitHubUser
+darklordace
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ eval $PSTAMP
+200608-224152-a1e4-UAS/> 
+$ PS1="\$(eval \$PSTAMP)"
+200608-224156-c16f-UAS/> eco[Kho $[K"$CEKSAYA"
+darklordace ZCZCSCRIPTSTART 200602-194558 darklordace
+darklordace darklordace 200602-194630-9d54-UAS/ 200602-194630 SEQOK SUMOK 9d549140
+darklordace darklordace 200602-194635-1cef-UAS/ 200602-194635 SEQOK SUMOK 1cef6821
+darklordace darklordace 200602-194643-91b1-UAS/ 200602-194643 SEQOK SUMOK 91b16729
+darklordace darklordace 200602-194701-4b8b-UAS/ 200602-194701 SEQOK SUMOK 4b8b6441
+darklordace ZCZCSCRIPTSTOP 200602-194734 SEQOK
+200608-224207-7af4-UAS/> echo "$CEKSEBELA1"
+darklordace ZCZCSCRIPTSTART 200608-050144 drassd
+darklordace drassd 200608-050214-37b3-drasseta.aliyyu/ 200608-050214 SEQOK SUMOK 37b3502d
+darklordace drassd 200608-050223-59ed-drasseta.aliyyu/ 200608-050223 SEQOK SUMOK 59ede625
+darklordace drassd 200608-050229-fcb5-drasseta.aliyyu/ 200608-050229 SEQOK SUMOK fcb5cde8
+darklordace drassd 200608-050233-3707-drasseta.aliyyu/ 200608-050233 SEQOK SUMOK 37078676
+darklordace ZCZCSCRIPTSTOP 200608-050244 SEQOK
+200608-224214-64ac-UAS/> echo "$CEKSEBELA2"
+darklordace ZCZCSCRIPTSTART 200531-230816 eaglescommander
+darklordace eaglescommander 200531-230835-ae01-nadhif.adyatma/ 200531-230835 SEQOK SUMOK ae013b24
+darklordace eaglescommander 200531-230839-f947-nadhif.adyatma/ 200531-230839 SEQOK SUMOK f947a2f2
+darklordace eaglescommander 200531-230844-8330-nadhif.adyatma/ 200531-230844 SEQOK SUMOK 83303d31
+darklordace eaglescommander 200531-230853-c65b-nadhif.adyatma/ 200531-230853 SEQOK SUMOK c65bb922
+darklordace ZCZCSCRIPTSTOP 200531-230901 SEQOK
+200608-224221-4c2f-UAS/> exit
+exit
+
+Script done on 2020-06-08 22:42:25+0700
